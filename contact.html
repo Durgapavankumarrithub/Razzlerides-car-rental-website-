@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example with Legend</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="contact.css" >
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo">
+            <h1 style="color:orangered;">RazzleRides</h1>
+        </div>
+        <div class="item">
+            <a  href="home.css" style="color:black;">Home</a>
+            <a href="rentcar.html">Rent Car</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="aboutus.html">About Us</a>
+        </div>
+        <div class="btn">
+             <a href="login.html"><input class="login" type="button" value="Log in"></a>
+            <input type="button" value="Sign Up">
+        </div>
+    </nav>
+ <br>
+ <br>
+    <h1 class="contact" style="color: lawngreen;">Contact Us</h1>
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend style="color:orange;">Personal Information</legend>
+                <div class="form-group">
+                    <label for="name" style="color:white;">Name:</label>
+                    <input type="text" class="form-control" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="email" style="color:white;">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend style="color: orangered;">Car Rental Details</legend>
+                <div class="form-group">
+                    <label for="pickup-location" style="color:white;">Pick-up Location:</label>
+                    <input type="text" class="form-control" id="pickup-location" name="pickup-location">
+                </div>
+                <div class="form-group">
+                    <label for="dropoff-location" style="color:white;">Drop-off Location:</label>
+                    <input type="text" class="form-control" id="dropoff-location" name="dropoff-location">
+                </div>
+                <div class="form-group">
+                    <label for="rental-date" style="color:white;">Rental Date:</label>
+                    <input type="date" class="form-control" id="rental-date" name="rental-date">
+                </div>
+            </fieldset>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

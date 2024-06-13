@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box; 
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image:url("assets/sportscar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    padding:0;
+    height:100vh;
+    width:100vw;
+    
+}
+.container {
+    margin-top: 50px;
+    
+}
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.contact{
+    text-align: center;
+}
+@media (max-width: 576px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    fieldset {
+        padding: 10px;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .form-group label {
+        font-size: 0.9em;
+    }
+    .form-group input {
+        font-size: 0.9em;
+    }
+    legend {
+        font-size: 1em;
+    }
+    h1.contact {
+        font-size: 1.5em;
+    }
+    button {
+        padding: 60px;
+        margin: 20px;
+        width: 200px; 
+    }
+    
+}
